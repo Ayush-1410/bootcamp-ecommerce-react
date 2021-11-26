@@ -1,0 +1,31 @@
+.place_order {
+  background: #ffe8e8;
+  padding: 5rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.place_order_content h1 {
+  font-size: 2.2rem;
+  color: #ff7b7b;
+  letter-spacing: 3px;
+}
+.place_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.place_link button {
+  padding: 10px 30px;
+  margin-top: 2rem;
+  background: #ff7b7b;
+  border: 1px solid #ff7b7b;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1rem;
+}

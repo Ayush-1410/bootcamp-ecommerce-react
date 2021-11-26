@@ -1,0 +1,129 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #ffe8e8;
+}
+
+.heading_link {
+  text-decoration: none;
+}
+
+.heading_link > h1 {
+  color: #ff847c;
+  letter-spacing: 2px;
+  font-family: estonia;
+  font-size: 230%;
+  cursor: pointer;
+  transition: ease-out 1s;
+}
+
+.heading_link > h1:hover {
+  transform: translateX(20px);
+}
+
+.nav_links ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav_links ul li {
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+}
+
+.nav_links ul li:hover {
+  transform: translateY(-10px);
+  color: #ff847c;
+}
+
+.cart_styling1 {
+  text-decoration: none;
+  color: #000;
+}
+
+.cart_styling {
+  color: #ff847c;
+  transition: none;
+  margin-left: 20px;
+}
+
+.fa-shopping-basket:hover {
+  transform: none;
+}
+
+@media screen and (max-width: 980px) {
+  .heading_link > h1 {
+    font-size: 150%;
+    transition: none;
+  }
+  .heading_link > h1:hover {
+    transform: none;
+  }
+  .nav_links ul li {
+    padding: 0.5rem;
+    font-size: 130%;
+    transition: none;
+  }
+  .nav_links ul li:hover {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading_link > h1 {
+    font-size: 130%;
+    transition: none;
+  }
+  .heading_link > h1:hover {
+    transform: none;
+  }
+  .nav_links ul li {
+    padding: 0.4rem;
+    font-size: 115%;
+    transition: none;
+  }
+  .nav_links ul li:hover {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .heading_link > h1 {
+    font-size: 110%;
+    transition: none;
+  }
+  .heading_link > h1:hover {
+    transform: none;
+  }
+  .nav_links ul li {
+    padding: 0.3rem;
+    font-size: 100%;
+    transition: none;
+  }
+  .nav_links ul li:hover {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .heading_link > h1 {
+    font-size: 140%;
+    transition: none;
+  }
+  .heading_link > h1:hover {
+    transform: none;
+  }
+  .nav_links ul li:not(:last-child) {
+    display: none;
+  }
+  .cart_styling1 {
+    display: none;
+  }
+  .cart_styling {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,26 @@
+.tabs nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #bf6161;
+}
+.link_styling {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .link_styling {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tabs nav {
+    padding: 1rem;
+  }
+  .link_styling {
+    font-size: 0.8rem;
+  }
+}
