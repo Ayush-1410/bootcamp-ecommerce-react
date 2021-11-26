@@ -18,11 +18,7 @@ const shopReducer = (state = INITIAL_STATE, action) => {
         ...state,
         cart: [...state.cart, quantity],
         currentItem: state.currentItem + 1,
-      };
-    case actionTypes.REMOVE_FROM_CART:
-      return {
-        ...state,
-      };
+      };    
     case actionTypes.ADJUST_ITEM_QTY:
       return {
         ...state,
