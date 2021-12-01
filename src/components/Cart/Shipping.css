@@ -95,29 +95,22 @@ form {
 }
 .shipping_free {
   padding: 1rem;
-  display: flex;
-  align-items: center;
   border: 1px solid #ccc;
   width: 320px;
   cursor: pointer;
 }
-.shipping_free > label {
-  margin-left: 10px;
-  font-size: 1.1rem;
+.shipping_free > input {
+  margin-right: 10px;
 }
 .shipping_delivery {
   padding: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 1px solid #ccc;
   width: 320px;
   margin-left: 1rem;
   cursor: pointer;
 }
-.shipping_delivery > label {
-  margin-left: 10px;
-  font-size: 1.1rem;
+.shipping_delivery > input {
+  margin-right: 10px;
 }
 
 .shipping_summary {
