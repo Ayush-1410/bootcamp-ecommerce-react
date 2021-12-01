@@ -46,9 +46,8 @@
   padding: 1.5rem;
   margin-top: 1rem;
 }
-.payment_paypal label {
-  margin-left: 10px;
-  font-weight: 500;
+.payment_paypal input {
+  margin-right: 10px;
 }
 .fa-paypal {
   font-size: 30px;
