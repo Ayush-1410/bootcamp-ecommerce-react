@@ -27,8 +27,10 @@ function Payment() {
           <hr />
 
           <div className="payment_credit">
-            <input type="radio" name="money" />
-            <label>Credit Card</label>
+            <label>
+              <input type="radio" name="money" checked />
+              Credit Card
+            </label>
 
             <div className="payment_credit_input">
               <input type="number" placeholder="0000 0000 0000 0000" />
@@ -41,13 +43,15 @@ function Payment() {
           </div>
           <hr />
 
-          <div className="payment_paypal">
-            <div>
-              <input type="radio" name="money" />
-              <label>Paypal</label>
+          <label>
+            <div className="payment_paypal">
+              <div>
+                <input type="radio" name="money" />
+                Paypal
+              </div>
+              <i class="fab fa-paypal"></i>
             </div>
-            <i class="fab fa-paypal"></i>
-          </div>
+          </label>
           <hr />
 
           <div className="payment_button">
