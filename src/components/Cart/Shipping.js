@@ -43,14 +43,18 @@ function Shipping() {
           </div>
           <hr />
           <div className="form_btn">
-            <div className="shipping_free">
-              <input type="radio" name="radio-btn" />
-              <label>Free Shipping</label>
-            </div>
-            <div className="shipping_delivery">
-              <input type="radio" name="radio-btn" />
-              <label>Next Day Delivery - $20 </label>
-            </div>
+            <label>
+              <div className="shipping_free">
+                <input type="radio" name="radio-btn" />
+                Free Shipping
+              </div>
+            </label>
+            <label>
+              <div className="shipping_delivery">
+                <input type="radio" name="radio-btn" />
+                Next Day Delivery - $20
+              </div>
+            </label>
           </div>
           <div className="shipping_button">
             <Link to="/payment">
